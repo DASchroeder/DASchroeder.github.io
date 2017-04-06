@@ -1,15 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-<<<<<<< HEAD
+    "\\StoreApp",
     "\\StoreApp\\img"
   ],
-  "SelectedNode": "\\index.html",
-=======
-    "\\assets",
-    "\\images"
-  ],
-  "SelectedNode": "\\images\\pic08.jpg",
->>>>>>> 37eda21151b351a20eb276175ffbaf410a898eb3
+  "SelectedNode": "\\StoreApp\\index.html",
   "PreviewInSolutionExplorer": false
 }
