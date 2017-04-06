@@ -168,16 +168,22 @@
 							<p>On <a href="https://github.com/DASchroeder">GitHub</a> you can find all the things I have created using C#, .NET, CSS, HTML5, Razor. 
                             If you like to take a look at my personal Life go on over to <a href="https://twitter.com/SchroederJR">Twitter.</a></p>
 
-                            <form action="https://formspree.io/danielschroederjr@gmail.com" method="POST">
-                                <div class="row">
-                                    <div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
-                                    <div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
-                                    <div class="12u$">
-                                        <textarea name="message" placeholder="Message"></textarea>
-                                    </div>
-                                    <div class="12u$">
-                                        <input type="submit" value="Send Message" />
-                                    </div>
+                            <form action="https://formspree.io/youremail@gmail.com" method="POST">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your Name" id="name" required="" data-validation-required-message="Please enter your name" name="name">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Your Email" id="email" required="" data-validation-required-message="Please enter your email" name="_replyto">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required="" data-validation-required-message="Please leave a message" name="message"></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="text-center">
+                                    <div id="success"></div>
+                                    <button type="submit" class="btn btn-lg btn-black"><i class="fa fa-paper-plane-o" aria-hidden="true"></i>Send Message</button>
                                 </div>
                             </form>
 
