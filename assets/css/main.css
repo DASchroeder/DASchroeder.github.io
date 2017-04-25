@@ -16,6 +16,7 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+        
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -2154,7 +2155,7 @@
 
 			#main > section.dark {
 				color: #ddd;
-				color: rgba(255, 255, 255, 0.75);
+				color: white;
 			}
 
 				#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
