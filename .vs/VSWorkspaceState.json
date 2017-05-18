@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\assets",
-    "\\assets\\css"
+    "\\assets\\css",
+    "\\images"
   ],
-  "SelectedNode": "\\assets\\css\\main.css",
+  "SelectedNode": "\\images\\csharplib.jpg",
   "PreviewInSolutionExplorer": false
 }
